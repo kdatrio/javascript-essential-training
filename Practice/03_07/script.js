@@ -7,3 +7,20 @@
  * - Find an object that has another object inside of it to create a nested object.
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
+
+const drawer = {
+  name: "Top Drawer",
+  direction: "Right",
+  isFull: true,
+  isOpen: false,
+};
+
+const telephone = {
+  name: "Desk Phone",
+  telephoneNumber: "8639442996",
+  voicemail: true,
+  lineKeys: {
+    line1: "Keith",
+    dialTone: false,
+  },
+};
