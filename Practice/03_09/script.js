@@ -32,4 +32,7 @@ const backpack = {
   changeVolume: function (newVolume) {
     this.volume = newVolume;
   },
+  changeName: function (newName) {
+    this.name = newName;
+  },
 };
